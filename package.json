@@ -1,0 +1,26 @@
+{
+  "name": "jadecache",
+  "description": "jade cache",
+  "version": "0.1.0",
+  "main": "./jadecache.js",
+  "keywords": [
+    "jade",
+    "cache",
+    "jade-cache",
+    "precompile"
+  ],
+  "dependencies": {
+    "jade": "*",
+    "heyutils": "*"
+  },
+  "repository": {
+    "url": "git://github.com/heysdk/jadecache.git"
+  },
+  "author": "heysdk",
+  "license": "Apache",
+  "homepage": "https://github.com/heysdk/jadecache",
+  "bugs": {
+    "url": "https://github.com/heysdk/jadecache/issues"
+  },
+  "readmeFilename": "README.md"
+}
