@@ -12,7 +12,7 @@ function render2str(filename, locals) {
         return lstCache[filename](locals);
     }
 
-    fn = jade.compile(fs.readFileSync(filename, 'utf8'), {filename: filename});
+    var fn = jade.compile(fs.readFileSync(filename, 'utf8'), {filename: filename});
     lstCache[filename] = fn;
 
     return fn(locals);
